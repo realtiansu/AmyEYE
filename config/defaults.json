@@ -1,0 +1,20 @@
+{
+    "settings": {
+        "direct": "data",
+        "hostname": "",
+        "RTCPP": 12580,
+        "RUDPP": 12581,
+        "dataShards": 10,
+        "parShards": 3
+    },
+    "points": [
+        {
+            "address": "142.93.130.140",
+            "alias": "Digital_Ocean_Amsterdam",
+            "type": ["icmp","udp","kcp"],
+            "size": 64,
+            "amount": 20,
+            "crontab": "*/1 * * * * *"
+        }
+    ]
+}
